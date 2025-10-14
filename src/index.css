@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@theme {
+    --font-inter: 'Inter', sans-serif;
+    --font-lanze: 'Lanze', sans-serif;
+    --color-primary: #ff0000;
+    --color-secondary: #ffffff;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url('/fonts/InterRegular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url('/fonts/InterMedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url('/fonts/InterBold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url('/fonts/InterSemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url('/fonts/InterLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Lanze";
+    src: url('/fonts/Lanze-Halbred.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+body {
+    color: var(--color-primary); 
+}
+
+@utility container{
+    width: 100%;
+    padding:32px 6px;
+}
