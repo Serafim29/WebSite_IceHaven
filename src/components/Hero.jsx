@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { LuArrowUpRight } from "react-icons/lu";
+import AnimatedLink from './AnimatedLink'
  
 const Hero = () => {
     return (
@@ -8,13 +9,12 @@ const Hero = () => {
             <div className='flex'>
                 <div className='w-1/2 pt-[30px]'>
                     <p className='text-[16px] font-semibold leading-tight w-[340px]'>Book your stay now to be part <br /> of an unforgettable mountain adventure <br /> and enjoy impeccable service</p>
-                    <Link to="/rent" className='inline-block max-w-fit mt-[35px]'>
+                    <AnimatedLink to="/rent" showLine={true} className='inline-block max-w-fit mt-[35px]'>
                         <div className='flex items-center gap-3'>
                             <span className='text-[18px] uppercase font-semibold'>Book a place</span>
                             <LuArrowUpRight className='text-[25px]'/>
                         </div>
-                        <div className='w-full h-[2px] bg-primary mt-1'></div>
-                    </Link>
+                    </AnimatedLink>
                 </div>
                 <div className='w-1/2'>
                     <p className='text-5xl font-semibold leading-tight'>A snowy paradise for your holiday with care and comfort. Inspiring slopes and a warm atmosphere.</p>
@@ -32,3 +32,4 @@ const Hero = () => {
 }
  
 export default Hero
+ 
