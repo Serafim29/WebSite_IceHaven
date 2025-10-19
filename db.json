@@ -1,0 +1,315 @@
+{
+
+    "categories": [
+  
+      {
+  
+        "name": "Fun Parties",
+  
+        "description": "Lively gatherings with music, dancing, and entertainment for a great time. Perfect for letting loose with friends.",
+  
+        "events": [
+  
+          {
+  
+            "img": "https://images.unsplash.com/photo-1518680874800-bb4d2abe7887?ixlib=rb-4.1.0&ixid=MjwxMA3fDB8MHxzZWFyY2h8MTl8fGNvZmZlZTglMjBjaGF8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+
+            "title": "Glow Night Bash",
+  
+            "tags": {
+  
+              "date": "November 1",
+  
+              "time": "8:00 PM",
+  
+              "location": "Downtown Club"
+  
+            }
+  
+          },
+  
+          {
+  
+            "img": "https://images.unsplash.com/photo-1518680874800-bb4d2abe7887?ixlib=rb-4.1.0&ixid=MjwxMA3fDB8MHxzZWFyY2h8MTl8fGNvZmZlZTglMjBjaGF8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+            
+            "title": "80s Retro Party",
+  
+            "tags": {
+  
+              "date": "November 8",
+  
+              "time": "9:00 PM",
+  
+              "location": "Skyline Lounge"
+  
+            }
+  
+          },
+  
+          {
+  
+            "img": "https://images.unsplash.com/photo-1518608774889-b04d2abe7702?ixlib=rb-4.1.0&ixid=M3wxNjA3fDB8MHxzZWFyfY2h8NHx8c25vd2VyfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
+  
+            "title": "Beach Bonfire Jam",
+  
+            "tags": {
+  
+              "date": "November 15",
+  
+              "time": "6:00 PM",
+  
+              "location": "Sunset Beach"
+  
+            }
+  
+          },
+  
+          {
+  
+            "img": "https://images.unsplash.com/photo-1518608774889-b04d2abe7702?ixlib=rb-4.1.0&ixid=M3wxNjA3fDB8MHxzZWFyfY2h8NHx8c25vd2VyfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
+  
+            "title": "Masquerade Ball",
+  
+            "tags": {
+  
+              "date": "November 22",
+  
+              "time": "7:00 PM",
+  
+              "location": "Grand Hall"
+  
+            }
+  
+          },
+  
+          {
+  
+            "img": "https://images.unsplash.com/photo-1518608774889-b04d2abe7702?ixlib=rb-4.1.0&ixid=M3wxNjA3fDB8MHxzZWFyfY2h8NHx8c25vd2VyfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
+  
+            "title": "Silent Disco",
+  
+            "tags": {
+  
+              "date": "November 29",
+  
+              "time": "10:00 PM",
+  
+              "location": "Rooftop Garden"
+  
+            }
+  
+          }
+  
+        ]
+  
+      },
+  
+      {
+  
+        "name": "Sporting Events",
+  
+        "description": "Exciting competitions featuring top athletes and teams. A thrill for sports lovers of all kinds.",
+  
+        "events": [
+  
+          {
+  
+            "img": "https://images.unsplash.com/photo-1518608774889-b04d2abe7702?ixlib=rb-4.1.0&ixid=M3wxNjA3fDB8MHxzZWFyfY2h8NHx8c25vd2VyfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
+  
+            "title": "City Marathon",
+  
+            "tags": {
+  
+              "date": "October 30",
+  
+              "time": "7:00 AM",
+  
+              "location": "Main Street"
+  
+            }
+  
+          },
+  
+          {
+  
+            "img": "https://images.unsplash.com/photo-1518608774889-b04d2abe7702?ixlib=rb-4.1.0&ixid=M3wxNjA3fDB8MHxzZWFyfY2h8NHx8c25vd2VyfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
+  
+            "title": "Championship Football",
+  
+            "tags": {
+  
+              "date": "November 5",
+  
+              "time": "5:00 PM",
+  
+              "location": "Arena Stadium"
+  
+            }
+  
+          },
+  
+          {
+  
+            "img": "https://images.unsplash.com/photo-1518608774889-b04d2abe7702?ixlib=rb-4.1.0&ixid=M3wxNjA3fDB8MHxzZWFyfY2h8NHx8c25vd2VyfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
+  
+            "title": "Basketball Finals",
+  
+            "tags": {
+  
+              "date": "November 10",
+  
+              "time": "7:00 PM",
+  
+              "location": "Metro Arena"
+  
+            }
+  
+          },
+  
+          {
+  
+            "img": "https://images.unsplash.com/photo-1518608774889-b04d2abe7702?ixlib=rb-4.1.0&ixid=M3wxNjA3fDB8MHxzZWFyfY2h8NHx8c25vd2VyfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
+  
+            "title": "Skateboard Showdown",
+  
+            "tags": {
+  
+              "date": "November 17",
+  
+              "time": "2:00 PM",
+  
+              "location": "Skate Park"
+  
+            }
+  
+          },
+  
+          {
+  
+            "img": "https://images.unsplash.com/photo-1518608774889-b04d2abe7702?ixlib=rb-4.1.0&ixid=M3wxNjA3fDB8MHxzZWFyfY2h8NHx8c25vd2VyfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
+  
+            "title": "Tennis Open",
+  
+            "tags": {
+  
+              "date": "November 24",
+  
+              "time": "12:00 PM",
+  
+              "location": "Grand Court"
+  
+            }
+  
+          }
+  
+        ]
+  
+      },
+  
+      {
+  
+        "name": "Family Programs",
+  
+        "description": "Engaging events suitable for all ages. Great for making memories together with your loved ones.",
+  
+        "events": [
+  
+          {
+  
+            "img": "https://images.unsplash.com/photo-1518608774889-b04d2abe7702?ixlib=rb-4.1.0&ixid=M3wxNjA3fDB8MHxzZWFyfY2h8NHx8c25vd2VyfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
+  
+            "title": "Puppet Theater",
+  
+            "tags": {
+  
+              "date": "November 3",
+  
+              "time": "10:00 AM",
+  
+              "location": "Community Center"
+  
+            }
+  
+          },
+  
+          {
+  
+            "img": "https://images.unsplash.com/photo-1518608774889-b04d2abe7702?ixlib=rb-4.1.0&ixid=M3wxNjA3fDB8MHxzZWFyfY2h8NHx8c25vd2VyfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
+  
+            "title": "Outdoor Movie Night",
+  
+            "tags": {
+  
+              "date": "November 9",
+  
+              "time": "6:30 PM",
+  
+              "location": "Central Park"
+  
+            }
+  
+          },
+  
+          {
+  
+            "img": "https://images.unsplash.com/photo-1518608774889-b04d2abe7702?ixlib=rb-4.1.0&ixid=M3wxNjA3fDB8MHxzZWFyfY2h8NHx8c25vd2VyfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
+  
+            "title": "Science Fair",
+  
+            "tags": {
+  
+              "date": "November 14",
+  
+              "time": "9:00 AM",
+  
+              "location": "City Museum"
+  
+            }
+  
+          },
+  
+          {
+  
+            "img": "https://images.unsplash.com/photo-1518608774889-b04d2abe7702?ixlib=rb-4.1.0&ixid=M3wxNjA3fDB8MHxzZWFyfY2h8NHx8c25vd2VyfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
+  
+            "title": "Storytime Hour",
+  
+            "tags": {
+  
+              "date": "November 20",
+  
+              "time": "11:00 AM",
+  
+              "location": "Library Hall"
+  
+            }
+  
+          },
+  
+          {
+  
+            "img": "https://images.unsplash.com/photo-1518608774889-b04d2abe7702?ixlib=rb-4.1.0&ixid=M3wxNjA3fDB8MHxzZWFyfY2h8NHx8c25vd2VyfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
+  
+            "title": "Crafts & Creations",
+  
+            "tags": {
+  
+              "date": "November 27",
+  
+              "time": "3:00 PM",
+  
+              "location": "Arts Center"
+  
+            }
+  
+          }
+  
+        ]
+  
+      }
+  
+    ]
+  
+  }
+  
+   

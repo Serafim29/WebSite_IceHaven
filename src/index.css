@@ -9,35 +9,35 @@
 
 @font-face {
     font-family: "Inter";
-    src: url('/fonts/InterRegular.ttf') format('truetype');
+    src: url('/fonts/Inter_18pt-Regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Inter";
-    src: url('/fonts/InterMedium.ttf') format('truetype');
+    src: url('/fonts/Inter_18pt-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Inter";
-    src: url('/fonts/InterBold.ttf') format('truetype');
+    src: url('/fonts/Inter_18pt-Bold.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Inter";
-    src: url('/fonts/InterSemiBold.ttf') format('truetype');
+    src: url('/fonts/Inter_18pt-SemiBold.ttf') format('truetype');
     font-weight: 600;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Inter";
-    src: url('/fonts/InterLight.ttf') format('truetype');
+    src: url('/fonts/Inter_18pt-Light.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
 }
@@ -53,13 +53,13 @@ body {
     color: var(--color-primary); 
 }
 
-.container custom {
+.container-custom {
     width: 100%;
     padding:32px 6px;
 }
 
 @media screen and (max-width: 1024px) {
-    .container custom {
+    .container-custom {
     padding: 16px 32px;
 }
 }
