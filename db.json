@@ -12,35 +12,35 @@
   
           {
   
-            "img": "https://images.unsplash.com/photo-1518680874800-bb4d2abe7887?ixlib=rb-4.1.0&ixid=MjwxMA3fDB8MHxzZWFyY2h8MTl8fGNvZmZlZTglMjBjaGF8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
-
+            "img": "https://images.unsplash.com/photo-1518608774889-b04d2abe7702?ixlib=rb-4.1.0&ixid=M3wxNjA3fDB8MHxzZWFyfY2h8NHx8c25vd2VyfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
+  
             "title": "Glow Night Bash",
-  
+
             "tags": {
-  
-              "date": "November 1",
-  
-              "time": "8:00 PM",
-  
-              "location": "Downtown Club"
+            
+            "date": "November 1",
+            
+            "time": "8:00 PM",
+            
+            "location": "Downtown Club"
   
             }
   
           },
-  
+
           {
   
-            "img": "https://images.unsplash.com/photo-1518680874800-bb4d2abe7887?ixlib=rb-4.1.0&ixid=MjwxMA3fDB8MHxzZWFyY2h8MTl8fGNvZmZlZTglMjBjaGF8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
-            
+            "img": "https://images.unsplash.com/photo-1518608774889-b04d2abe7702?ixlib=rb-4.1.0&ixid=M3wxNjA3fDB8MHxzZWFyfY2h8NHx8c25vd2VyfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
+  
             "title": "80s Retro Party",
-  
+
             "tags": {
-  
-              "date": "November 8",
-  
-              "time": "9:00 PM",
-  
-              "location": "Skyline Lounge"
+            
+            "date": "November 8",
+            
+            "time": "9:00 PM",
+            
+            "location": "Skyline Lounge"
   
             }
   
@@ -308,7 +308,130 @@
   
       }
   
+    ],
+    "products": [
+      {
+        "id": 1,
+        "name": "Alpine Pro X1",
+        "brand": "Rossignol",
+        "type": "Ski",
+        "size": "170cm",
+        "color": "Red",
+        "price": 45,
+        "image": "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=400&h=300&fit=crop"
+      },
+      {
+        "id": 2,
+        "name": "Powder Master",
+        "brand": "K2",
+        "type": "Ski",
+        "size": "165cm",
+        "color": "Black",
+        "price": 40,
+        "image": "https://images.unsplash.com/photo-1609955773259-5a88a8f1f5aa?w=400&h=300&fit=crop"
+      },
+      {
+        "id": 3,
+        "name": "Freestyle Elite",
+        "brand": "Burton",
+        "type": "Snowboard",
+        "size": "155cm",
+        "color": "Blue",
+        "price": 50,
+        "image": "https://images.unsplash.com/photo-1518608774889-b04d2abe7702?w=400&h=300&fit=crop"
+      },
+      {
+        "id": 4,
+        "name": "Carver Pro",
+        "brand": "Atomic",
+        "type": "Ski",
+        "size": "175cm",
+        "color": "Yellow",
+        "price": 48,
+        "image": "https://images.unsplash.com/photo-1605540436563-5bca919ae766?w=400&h=300&fit=crop"
+      },
+      {
+        "id": 5,
+        "name": "Mountain Beast",
+        "brand": "Salomon",
+        "type": "Ski",
+        "size": "180cm",
+        "color": "Black",
+        "price": 52,
+        "image": "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=400&h=300&fit=crop"
+      },
+      {
+        "id": 6,
+        "name": "Snow Shredder",
+        "brand": "Burton",
+        "type": "Snowboard",
+        "size": "160cm",
+        "color": "Green",
+        "price": 55,
+        "image": "https://images.unsplash.com/photo-1518608774889-b04d2abe7702?w=400&h=300&fit=crop"
+      },
+      {
+        "id": 7,
+        "name": "Race Demon",
+        "brand": "Head",
+        "type": "Ski",
+        "size": "168cm",
+        "color": "Red",
+        "price": 46,
+        "image": "https://images.unsplash.com/photo-1609955773259-5a88a8f1f5aa?w=400&h=300&fit=crop"
+      },
+      {
+        "id": 8,
+        "name": "Park Rider",
+        "brand": "Ride",
+        "type": "Snowboard",
+        "size": "152cm",
+        "color": "White",
+        "price": 42,
+        "image": "https://images.unsplash.com/photo-1518608774889-b04d2abe7702?w=400&h=300&fit=crop"
+      },
+      {
+        "id": 9,
+        "name": "All-Mountain X",
+        "brand": "K2",
+        "type": "Ski",
+        "size": "172cm",
+        "color": "Blue",
+        "price": 47,
+        "image": "https://images.unsplash.com/photo-1605540436563-5bca919ae766?w=400&h=300&fit=crop"
+      },
+      {
+        "id": 10,
+        "name": "Freeride Pro",
+        "brand": "Rossignol",
+        "type": "Ski",
+        "size": "178cm",
+        "color": "Black",
+        "price": 50,
+        "image": "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=400&h=300&fit=crop"
+      },
+      {
+        "id": 11,
+        "name": "Backcountry Beast",
+        "brand": "Jones",
+        "type": "Snowboard",
+        "size": "158cm",
+        "color": "Orange",
+        "price": 58,
+        "image": "https://images.unsplash.com/photo-1518608774889-b04d2abe7702?w=400&h=300&fit=crop"
+      },
+      {
+        "id": 12,
+        "name": "Speed Demon",
+        "brand": "Atomic",
+        "type": "Ski",
+        "size": "166cm",
+        "color": "Silver",
+        "price": 44,
+        "image": "https://images.unsplash.com/photo-1609955773259-5a88a8f1f5aa?w=400&h=300&fit=crop"
+      }
     ]
+ 
   
   }
   
