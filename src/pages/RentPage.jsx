@@ -1,7 +1,10 @@
+
 import React, { useState, useEffect } from 'react'
 import { IoSearch } from "react-icons/io5"
+import { useCart } from '../context/CartContext'
  
 const RentPage = () => {
+  const { addToCart } = useCart()
   const [products, setProducts] = useState([])
   const [filteredProducts, setFilteredProducts] = useState([])
   const [searchTerm, setSearchTerm] = useState('')
@@ -238,7 +241,7 @@ const RentPage = () => {
                   </div>
                   <div className='flex items-center justify-between'>
                     <span className='text-[20px] font-semibold'>${product.price}/day</span>
-                    <button className='px-4 py-2 border-[2px] border-primary rounded-lg text-[14px] font-semibold hover:bg-primary hover:text-white transition-all'>
+                    <button onClick={() => addToCart(product)} className='px-4 py-2 border-[2px] border-primary rounded-lg text-[14px] font-semibold hover:bg-primary hover:text-white transition-all'>
                       Rent Now
                     </button>
                   </div>

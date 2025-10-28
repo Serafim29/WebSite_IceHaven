@@ -5,11 +5,11 @@ import About from '../components/About'
 
 const Home = () => {
   return (
-    <div>
+    <main>
       <Hero />
       <About />
       <EventsCalendar />
-    </div>
+    </main>
   )
 }
 
