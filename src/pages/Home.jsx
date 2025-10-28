@@ -6,9 +6,9 @@ import About from '../components/About'
 const Home = () => {
   return (
     <main>
-      <Hero />
-      <About />
-      <EventsCalendar />
+        <Hero />
+        <About />
+        <EventsCalendar />
     </main>
   )
 }

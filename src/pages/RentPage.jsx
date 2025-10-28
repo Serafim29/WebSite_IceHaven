@@ -1,10 +1,11 @@
-
 import React, { useState, useEffect } from 'react'
+import { useNavigate } from 'react-router-dom'
 import { IoSearch } from "react-icons/io5"
 import { useCart } from '../context/CartContext'
  
 const RentPage = () => {
-  const { addToCart } = useCart()
+  const navigate = useNavigate()
+  const { addToCart, openCart } = useCart()
   const [products, setProducts] = useState([])
   const [filteredProducts, setFilteredProducts] = useState([])
   const [searchTerm, setSearchTerm] = useState('')
@@ -239,11 +240,27 @@ const RentPage = () => {
                       <span className='font-semibold'>Color:</span> {product.color}
                     </p>
                   </div>
-                  <div className='flex items-center justify-between'>
-                    <span className='text-[20px] font-semibold'>${product.price}/day</span>
-                    <button onClick={() => addToCart(product)} className='px-4 py-2 border-[2px] border-primary rounded-lg text-[14px] font-semibold hover:bg-primary hover:text-white transition-all'>
-                      Rent Now
-                    </button>
+                  <div className='flex flex-col gap-2'>
+                    <div className='flex items-center justify-between mb-2'>
+                      <span className='text-[20px] font-semibold'>${product.price}/day</span>
+                    </div>
+                    <div className='flex gap-2'>
+                      <button 
+                        onClick={() => navigate(`/rent/${product.id}`)}
+                        className='flex-1 px-4 py-2 border-[2px] border-primary rounded-lg text-[14px] font-semibold hover:bg-primary/10 transition-all'
+                      >
+                        View Details
+                      </button>
+                      <button 
+                        onClick={() => {
+                          addToCart(product)
+                          openCart()
+                        }}
+                        className='flex-1 px-4 py-2 border-[2px] border-primary rounded-lg text-[14px] font-semibold hover:bg-primary hover:text-white transition-all'
+                      >
+                        Add to Cart
+                      </button>
+                    </div>
                   </div>
                 </div>
               ))}
