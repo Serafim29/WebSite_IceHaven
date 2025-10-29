@@ -27,7 +27,7 @@ const Navbar = () => {
         <ul className='flex items-center gap-6 xl:gap-12 text-[19px]'>
           <li><AnimatedLink to="/rent">Rent equipment</AnimatedLink></li>
           <li><AnimatedLink >Map</AnimatedLink></li>
-          <li><AnimatedLink >Accommodation</AnimatedLink></li>
+          <li><AnimatedLink to="/accommodation">Accommodation</AnimatedLink></li>
         </ul>
         <div className='flex items-center gap-4'>
           <button 

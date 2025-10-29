@@ -1,95 +1,161 @@
-import React from 'react'
-import { useState,useEffect } from 'react'
+import { useState, useEffect } from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Navigation } from 'swiper/modules'
+import { IoChevronBack, IoChevronForward } from 'react-icons/io5'
 import 'swiper/css'
 import 'swiper/css/navigation'
-import { BsArrowRight, BsArrowLeft } from "react-icons/bs";
- 
+
 const EventsCalendar = () => {
- 
-    const [categories, setCategories] = useState([]);
-    const [activeCategory, setActiveCategory] = useState("Sporting Events");
- 
-    useEffect(() => {
-        fetch('http://localhost:3000/categories')
-        .then(res => res.json())
-        .then(data => setCategories(data))
-        .catch(err => console.log(err))
-    }, [])
- 
-    const currentCategory = categories.find(category => category.name === activeCategory);
- 
-    console.log(currentCategory);
- 
- 
+  const [activeCategory, setActiveCategory] = useState('sporting')
+  const [categories, setCategories] = useState([])
+  const [isLoading, setIsLoading] = useState(true)
+
+  useEffect(() => {
+    // Fetch categories from mock API
+    setIsLoading(true)
+    fetch('http://localhost:3000/categories')
+      .then(response => response.json())
+      .then(data => {
+        console.log('Fetched categories:', data)
+        setCategories(data)
+        setIsLoading(false)
+      })
+      .catch(error => {
+        console.error('Error fetching categories:', error)
+        setIsLoading(false)
+      })
+  }, [])
+
+  const currentCategory = categories.find(cat => cat.id === activeCategory)
+  const currentEvents = currentCategory?.events || []
+
+  console.log('Active category:', activeCategory)
+  console.log('Current events:', currentEvents)
+
+  if (isLoading) {
+    return (
+      <section className='py-16 md:py-24'>
+        <div className='container-custom'>
+          <h2 className='text-[45px] md:text-[70px] lg:text-[90px] xl:text-[100px] font-black text-center mb-8 md:mb-12 font-lanze tracking-tighter leading-none'>
+            EVENTS CALENDAR
+          </h2>
+          <p className='text-center text-primary'>Loading events...</p>
+        </div>
+      </section>
+    )
+  }
+
   return (
-    <section id='events-calendar' className='py-16'>
-        <div className="container-custom">
-            <h1 className="text-[100px] font-lanze uppercase font-black text-center mb-2 leading-none">events calendar</h1>
+    <section className='py-16 md:py-24'>
+      <div className='container-custom'>
+        {/* Title */}
+        <h2 className='text-[45px] md:text-[70px] lg:text-[90px] xl:text-[100px] font-black text-center mb-8 md:mb-12 font-lanze tracking-tighter leading-none'>
+          EVENTS CALENDAR
+        </h2>
+
+        {/* Category Tabs */}
+        <div className='flex flex-wrap justify-center gap-4 md:gap-8 lg:gap-12 mb-4 md:mb-6'>
+          {categories.map(category => (
+            <button
+              key={category.id}
+              onClick={() => setActiveCategory(category.id)}
+              className={`text-[28px] md:text-[40px] lg:text-[48px] xl:text-[56px] font-black font-lanze transition-colors duration-300 leading-none ${
+                activeCategory === category.id
+                  ? 'text-primary'
+                  : 'text-[#e8a4a4] hover:text-primary/50'
+              }`}
+            >
+              {category.name}
+            </button>
+          ))}
         </div>
-        <div className='flex items-center justify-center gap-[50px] mb-6 w-[70%] mx-auto'>
-            {
-                categories.map((category,index) => (
-                    <button
-                    key={index}
-                    className={`cursor-pointer text-[42px] font-semibold hover:scale-105 transition-all duration-300 ${activeCategory === category.name ? 'text-primary' : 'text-primary/60'}`}
-                    onClick={() => setActiveCategory(category.name)}>
-                        {category.name}
-                    </button>
-                ))
-            }
-        </div>
- 
-        <p className='text-[17px] font-semibold text-center mb-6'>{currentCategory?.description}</p>
- 
+
+        {/* Category Description */}
+        <p className='text-center text-primary text-[13px] md:text-[15px] lg:text-[16px] max-w-4xl mx-auto mb-10 md:mb-14 font-normal leading-relaxed px-4'>
+          {currentCategory?.description}
+        </p>
+
+        {/* Events Swiper */}
         <div className='relative'>
-            <Swiper
+          <Swiper
             modules={[Navigation]}
-            spaceBetween={100}
-            slidesPerView={3}
-            loop={true}
+            spaceBetween={24}
+            slidesPerView={1}
             navigation={{
-                nextEl: '.swiper-button-next-custom',
-                prevEl: '.swiper-button-prev-custom',
+              nextEl: '.swiper-button-next-custom',
+              prevEl: '.swiper-button-prev-custom',
+            }}
+            breakpoints={{
+              640: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+              },
+              1024: {
+                slidesPerView: 3,
+                spaceBetween: 28,
+              },
             }}
             className='pb-20'
             key={activeCategory}
-            >
-                {currentCategory?.events?.map((event, index) => (
-                    <SwiperSlide key={index}>
-                        <div className='border-[2px] border-primary rounded-lg p-6 overflow-hidden h-full flex flex-col '>
-                            <div className='h-[300px]'>
-                                <img src={event.img} alt="" className='w-full h-full object-cover rounded-lg' />
-                            </div>
-                            <div>
-                                <h3 className='text-[16px] font-base mt-2'>"{event.title}"</h3>
- 
-                                <div className='flex items-center flex-wrap gap-2 mt-3'>
-                                    <span className='px-2 py-1 text-center border-[2px] border-primary rounded-full text-[12px] font-semibold'>Date: {event.tags.date}</span>
-                                    <span className='px-2 py-1 text-center border-[2px] border-primary rounded-full text-[12px] font-semibold'>Time: {event.tags.time}</span>
-                                    <span className='px-2 py-1 text-center border-[2px] border-primary rounded-full text-[12px] font-semibold'>Location: {event.tags.location}</span>
-                                </div>
-                            </div>
-                        </div>
-                    </SwiperSlide>
-                ))}
-            </Swiper>
- 
-            <div className='flex justify-center items-center mt-12'>
-                <div className='flex items-center gap-6 border-[2px] border-primary rounded-full px-3 py-1'>
-                    <button className='swiper-button-prev-custom cursor-pointer'>
-                        <BsArrowLeft className='text-[30px] hover:text-primary/60 hover:scale-105 transition-all duration-300' />
-                    </button>
-                    <button className='swiper-button-next-custom cursor-pointer'>
-                        <BsArrowRight className='text-[30px] hover:text-primary/60 hover:scale-105 transition-all duration-300' />
-                    </button>
+          >
+            {currentEvents.map((event, index) => (
+              <SwiperSlide key={index}>
+                <div className='border-[3px] border-primary rounded-[24px] overflow-hidden bg-white h-full flex flex-col shadow-sm'>
+                  {/* Event Image */}
+                  <div className='aspect-[4/3] overflow-hidden p-3'>
+                    <img
+                      src={event.image}
+                      alt={event.title}
+                      className='w-full h-full object-cover rounded-[16px]'
+                    />
+                  </div>
+
+                  {/* Event Content */}
+                  <div className='p-5 md:p-6 flex-1 flex flex-col'>
+                    <h3 className='text-primary text-[15px] md:text-[16px] font-semibold mb-5 flex-1 leading-snug'>
+                      "{event.title}"
+                    </h3>
+
+                    {/* Event Tags */}
+                    <div className='flex flex-wrap gap-2'>
+                      <span className='px-4 py-1.5 border-[2px] border-primary rounded-full text-primary text-[11px] md:text-[12px] font-medium whitespace-nowrap'>
+                        Date: {event.tags.date}
+                      </span>
+                      <span className='px-4 py-1.5 border-[2px] border-primary rounded-full text-primary text-[11px] md:text-[12px] font-medium whitespace-nowrap'>
+                        Time: {event.tags.time}
+                      </span>
+                      <span className='px-4 py-1.5 border-[2px] border-primary rounded-full text-primary text-[11px] md:text-[12px] font-medium whitespace-nowrap'>
+                        Location: {event.tags.location}
+                      </span>
+                    </div>
+                  </div>
                 </div>
-            </div>
+              </SwiperSlide>
+            ))}
+          </Swiper>
+
         </div>
+
+        {/* Bottom Center Navigation */}
+        <div className='flex justify-center mt-12'>
+          <div className='flex items-center gap-2 border-[3px] border-primary rounded-full px-3 py-2 bg-white'>
+            <button
+              className='swiper-button-prev-custom text-primary hover:scale-110 transition-transform'
+              aria-label='Previous slide'
+            >
+              <IoChevronBack size={32} />
+            </button>
+            <button
+              className='swiper-button-next-custom text-primary hover:scale-110 transition-transform'
+              aria-label='Next slide'
+            >
+              <IoChevronForward size={32} />
+            </button>
+          </div>
+        </div>
+      </div>
     </section>
   )
 }
- 
+
 export default EventsCalendar
- 
