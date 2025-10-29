@@ -2,7 +2,7 @@ import React, { useRef } from 'react'
 import { Link } from 'react-router-dom';
 import gsap from 'gsap';
  
-const AnimatedLink = ({ to = "#", children, classNameText = "", classNameLink = "", showLine = false, onClick = () => {} }) => {
+const AnimatedLink = ({ to = "#", children, className = "", showLine = false }) => {
     const linkRef = useRef(null);
     const lineRef = useRef(null);
  
@@ -43,19 +43,18 @@ const AnimatedLink = ({ to = "#", children, classNameText = "", classNameLink = 
     return (
         <Link
             to={to}
-            className={`font-semibold text-[19px] ${classNameLink}`}
+            className={`font-semibold text-[19px] ${className}`}
             ref={linkRef}
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
-            onClick={onClick}
         >
-            <div className='overflow-hidden relative h-[24px]'>
-                <span className={`animated-text block text-[16px] md:text-[19px] ${classNameLink}` }>{children}</span>
-                <span className={`animated-text block text-[16px] md:text-[19px] absolute top-full left-0  ${classNameText}`}>{children}</span>
+            <div className='overflow-hidden relative h-[auto]'>
+                <span className='animated-text block'>{children}</span>
+                <span className='animated-text block absolute top-full left-0'>{children}</span>
             </div>
             {
                 showLine && (
-                    <div className='w-full h-[2px] bg-primary absolute bottom-0' ref={lineRef}></div>
+                    <div className='w-full h-[2px] bg-primary' ref={lineRef}></div>
                 )
             }
         </Link>

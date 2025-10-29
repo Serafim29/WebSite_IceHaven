@@ -279,6 +279,88 @@
       "image": "https://images.unsplash.com/photo-1609955773259-5a88a8f1f5aa?w=400&h=300&fit=crop"
     }
   ],
+  "apartments": [
+    {
+      "id": "a1",
+      "name": "Alpine View Studio",
+      "type": "Studio",
+      "location": "Base Village",
+      "capacity": 2,
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "areaSqm": 28,
+      "rating": 4.6,
+      "pricePerNight": 120,
+      "amenities": [
+        "Wi‑Fi",
+        "Kitchenette",
+        "Mountain View"
+      ],
+      "checkIn": "15:00",
+      "checkOut": "11:00",
+      "cancellationPolicy": "Free cancellation up to 72 hours before check-in.",
+      "images": [
+        "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=900&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?w=900&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=900&h=600&fit=crop"
+      ],
+      "description": "Cozy studio steps from the lifts with a beautiful alpine view. Perfect for couples looking for a quick ski getaway."
+    },
+    {
+      "id": "a2",
+      "name": "Summit One-Bedroom Suite",
+      "type": "1 Bedroom",
+      "location": "Summit Heights",
+      "capacity": 4,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "areaSqm": 52,
+      "rating": 4.8,
+      "pricePerNight": 180,
+      "amenities": [
+        "Wi‑Fi",
+        "Full Kitchen",
+        "Fireplace",
+        "Balcony"
+      ],
+      "checkIn": "15:00",
+      "checkOut": "11:00",
+      "cancellationPolicy": "Free cancellation up to 5 days before check-in.",
+      "images": [
+        "https://images.unsplash.com/photo-1505691938895-1758d7feb511?w=900&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?w=900&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1505691723518-36a5ac3b2a59?w=900&h=600&fit=crop"
+      ],
+      "description": "Spacious one-bedroom suite with fireplace and balcony overlooking the slopes. Ideal for small families."
+    },
+    {
+      "id": "a3",
+      "name": "Glacier Family Apartment",
+      "type": "2 Bedrooms",
+      "location": "Glacier Point",
+      "capacity": 6,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "areaSqm": 78,
+      "rating": 4.7,
+      "pricePerNight": 240,
+      "amenities": [
+        "Wi‑Fi",
+        "Full Kitchen",
+        "Washer/Dryer",
+        "Parking"
+      ],
+      "checkIn": "16:00",
+      "checkOut": "10:00",
+      "cancellationPolicy": "50% refund up to 7 days before check-in.",
+      "images": [
+        "https://images.unsplash.com/photo-1501183638710-841dd1904471?w=900&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=900&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=900&h=600&fit=crop"
+      ],
+      "description": "Modern two-bedroom apartment suited for families, featuring a fully equipped kitchen and in-unit laundry."
+    }
+  ],
   "cart": {
     "items": [],
     "totalPrice": 0
