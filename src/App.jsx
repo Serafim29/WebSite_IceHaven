@@ -11,6 +11,7 @@ import RentPage from "./pages/RentPage";
 import NotFound from "./pages/NotFound";
 import Accommodation from "./pages/Accommodation";
 import ApartmentDetails from "./pages/ApartmentDetails";
+import ProductDetails from "./pages/ProducDetails";
 import { CartProvider } from "./context/CartContext";
 import CartDrawer from "./components/CartDrawer"
 
@@ -33,6 +34,7 @@ const App = () => {
             <Route element={<Layout />}>
               <Route path="/" element={<Home />} />
               <Route path="/rent" element={<RentPage />} />
+              <Route path="/rent/:id" element={<ProductDetails />} />
               <Route path="/accommodation" element={<Accommodation />} />
               <Route path="/accommodation/:id" element={<ApartmentDetails />} />
             </Route>

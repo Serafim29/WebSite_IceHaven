@@ -1,160 +1,160 @@
 {
   "categories": [
     {
-      "name": "Fun Parties",
-      "description": "Lively gatherings with music, dancing, and entertainment for a great time. Perfect for letting loose with friends.",
+      "id": "fun",
+      "name": "Fun parties",
+      "description": "Après-ski parties, snow festivals, and mountain night events full of fun and energy.",
       "events": [
         {
-          "img": "https://images.unsplash.com/photo-1518608774889-b04d2abe7702?ixlib=rb-4.1.0&ixid=M3wxNjA3fDB8MHxzZWFyfY2h8NHx8c25vd2VyfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
-          "title": "Glow Night Bash",
+          "image": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=800&q=80",
+          "title": "Alpine Night Bash",
           "tags": {
-            "date": "November 1",
-            "time": "8:00 PM",
-            "location": "Downtown Club"
-          }
-        },
-        {
-          "img": "https://images.unsplash.com/photo-1518608774889-b04d2abe7702?ixlib=rb-4.1.0&ixid=M3wxNjA3fDB8MHxzZWFyfY2h8NHx8c25vd2VyfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
-          "title": "80s Retro Party",
-          "tags": {
-            "date": "November 8",
+            "date": "December 28, 2025",
             "time": "9:00 PM",
-            "location": "Skyline Lounge"
+            "location": "Main Lodge"
           }
         },
         {
-          "img": "https://images.unsplash.com/photo-1518608774889-b04d2abe7702?ixlib=rb-4.1.0&ixid=M3wxNjA3fDB8MHxzZWFyfY2h8NHx8c25vd2VyfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
-          "title": "Beach Bonfire Jam",
+          "image": "https://images.unsplash.com/photo-1516681842035-a1633865b6f0?w=800&q=80",
+          "title": "Snow Glow Party",
           "tags": {
-            "date": "November 15",
+            "date": "January 10, 2026",
+            "time": "8:30 PM",
+            "location": "Ice Dome Area"
+          }
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1483366774565-c783b9f70e2c?w=800&q=80",
+          "title": "Mountain Beats Festival",
+          "tags": {
+            "date": "February 2, 2026",
             "time": "6:00 PM",
-            "location": "Sunset Beach"
+            "location": "Village Square"
           }
         },
         {
-          "img": "https://images.unsplash.com/photo-1518608774889-b04d2abe7702?ixlib=rb-4.1.0&ixid=M3wxNjA3fDB8MHxzZWFyfY2h8NHx8c25vd2VyfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
-          "title": "Masquerade Ball",
+          "image": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=800&q=80",
+          "title": "Fireworks Spectacular",
           "tags": {
-            "date": "November 22",
-            "time": "7:00 PM",
-            "location": "Grand Hall"
+            "date": "December 31, 2025",
+            "time": "11:00 PM",
+            "location": "Summit Peak"
           }
         },
         {
-          "img": "https://images.unsplash.com/photo-1518608774889-b04d2abe7702?ixlib=rb-4.1.0&ixid=M3wxNjA3fDB8MHxzZWFyfY2h8NHx8c25vd2VyfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
-          "title": "Silent Disco",
+          "image": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=800&q=80",
+          "title": "Live DJ Night",
           "tags": {
-            "date": "November 29",
+            "date": "January 18, 2026",
             "time": "10:00 PM",
-            "location": "Rooftop Garden"
+            "location": "Base Camp Lounge"
           }
         }
-      ],
-      "id": "758f"
+      ]
     },
     {
-      "name": "Sporting Events",
-      "description": "Exciting competitions featuring top athletes and teams. A thrill for sports lovers of all kinds.",
+      "id": "sporting",
+      "name": "Sporting events",
+      "description": "Take part in thrilling competitions and test your skills on the resort's top slopes. The program includes races, tournaments, and marathons.",
       "events": [
         {
-          "img": "https://images.unsplash.com/photo-1518608774889-b04d2abe7702?ixlib=rb-4.1.0&ixid=M3wxNjA3fDB8MHxzZWFyfY2h8NHx8c25vd2VyfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
-          "title": "City Marathon",
+          "image": "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=800&q=80",
+          "title": "World Snowboard Cup",
           "tags": {
-            "date": "October 30",
-            "time": "7:00 AM",
-            "location": "Main Street"
-          }
-        },
-        {
-          "img": "https://images.unsplash.com/photo-1518608774889-b04d2abe7702?ixlib=rb-4.1.0&ixid=M3wxNjA3fDB8MHxzZWFyfY2h8NHx8c25vd2VyfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
-          "title": "Championship Football",
-          "tags": {
-            "date": "November 5",
-            "time": "5:00 PM",
-            "location": "Arena Stadium"
-          }
-        },
-        {
-          "img": "https://images.unsplash.com/photo-1518608774889-b04d2abe7702?ixlib=rb-4.1.0&ixid=M3wxNjA3fDB8MHxzZWFyfY2h8NHx8c25vd2VyfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
-          "title": "Basketball Finals",
-          "tags": {
-            "date": "November 10",
-            "time": "7:00 PM",
-            "location": "Metro Arena"
-          }
-        },
-        {
-          "img": "https://images.unsplash.com/photo-1518608774889-b04d2abe7702?ixlib=rb-4.1.0&ixid=M3wxNjA3fDB8MHxzZWFyfY2h8NHx8c25vd2VyfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
-          "title": "Skateboard Showdown",
-          "tags": {
-            "date": "November 17",
-            "time": "2:00 PM",
-            "location": "Skate Park"
-          }
-        },
-        {
-          "img": "https://images.unsplash.com/photo-1518608774889-b04d2abe7702?ixlib=rb-4.1.0&ixid=M3wxNjA3fDB8MHxzZWFyfY2h8NHx8c25vd2VyfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
-          "title": "Tennis Open",
-          "tags": {
-            "date": "November 24",
-            "time": "12:00 PM",
-            "location": "Grand Court"
-          }
-        }
-      ],
-      "id": "1c86"
-    },
-    {
-      "name": "Family Programs",
-      "description": "Engaging events suitable for all ages. Great for making memories together with your loved ones.",
-      "events": [
-        {
-          "img": "https://images.unsplash.com/photo-1518608774889-b04d2abe7702?ixlib=rb-4.1.0&ixid=M3wxNjA3fDB8MHxzZWFyfY2h8NHx8c25vd2VyfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
-          "title": "Puppet Theater",
-          "tags": {
-            "date": "November 3",
-            "time": "10:00 AM",
-            "location": "Community Center"
-          }
-        },
-        {
-          "img": "https://images.unsplash.com/photo-1518608774889-b04d2abe7702?ixlib=rb-4.1.0&ixid=M3wxNjA3fDB8MHxzZWFyfY2h8NHx8c25vd2VyfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
-          "title": "Outdoor Movie Night",
-          "tags": {
-            "date": "November 9",
-            "time": "6:30 PM",
-            "location": "Central Park"
-          }
-        },
-        {
-          "img": "https://images.unsplash.com/photo-1518608774889-b04d2abe7702?ixlib=rb-4.1.0&ixid=M3wxNjA3fDB8MHxzZWFyfY2h8NHx8c25vd2VyfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
-          "title": "Science Fair",
-          "tags": {
-            "date": "November 14",
+            "date": "January 15, 2026",
             "time": "9:00 AM",
-            "location": "City Museum"
+            "location": "Northern Slope"
           }
         },
         {
-          "img": "https://images.unsplash.com/photo-1518608774889-b04d2abe7702?ixlib=rb-4.1.0&ixid=M3wxNjA3fDB8MHxzZWFyfY2h8NHx8c25vd2VyfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
-          "title": "Storytime Hour",
+          "image": "https://images.unsplash.com/photo-1551524559-8af4e6624178?w=800&q=80",
+          "title": "European Ski Slalom Championship",
           "tags": {
-            "date": "November 20",
-            "time": "11:00 AM",
-            "location": "Library Hall"
+            "date": "February 12, 2026",
+            "time": "8:30 AM",
+            "location": "Central Slope"
           }
         },
         {
-          "img": "https://images.unsplash.com/photo-1518608774889-b04d2abe7702?ixlib=rb-4.1.0&ixid=M3wxNjA3fDB8MHxzZWFyfY2h8NHx8c25vd2VyfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
-          "title": "Crafts & Creations",
+          "image": "https://images.unsplash.com/photo-1526237307904-8aae2a7d7f0b?w=800&q=80",
+          "title": "Freestyle Snow Jam",
           "tags": {
-            "date": "November 27",
-            "time": "3:00 PM",
-            "location": "Arts Center"
+            "date": "March 5, 2026",
+            "time": "10:00 AM",
+            "location": "Sunset Ridge"
+          }
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1483082215548-e0e9bebd5daa?w=800&q=80",
+          "title": "Ice Climbing Championship",
+          "tags": {
+            "date": "February 20, 2026",
+            "time": "7:00 AM",
+            "location": "Frozen Falls"
+          }
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1551582045-6ec9c11d8697?w=800&q=80",
+          "title": "Cross-Country Ski Marathon",
+          "tags": {
+            "date": "March 15, 2026",
+            "time": "8:00 AM",
+            "location": "Nordic Trail"
           }
         }
-      ],
-      "id": "8fbf"
+      ]
+    },
+    {
+      "id": "family",
+      "name": "Family programs",
+      "description": "Family-friendly winter adventures, safe slopes, and fun snow activities for all ages.",
+      "events": [
+        {
+          "image": "https://images.unsplash.com/photo-1605540436563-5bca919ae766?w=800&q=80",
+          "title": "Kids' Snow Adventure Day",
+          "tags": {
+            "date": "December 22, 2025",
+            "time": "10:00 AM",
+            "location": "Beginner's Hill"
+          }
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1542223092-4fe5c1e2b5b8?w=800&q=80",
+          "title": "Family Toboggan Run",
+          "tags": {
+            "date": "January 5, 2026",
+            "time": "11:00 AM",
+            "location": "Tubing Park"
+          }
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1484318571209-661cf29a69c3?w=800&q=80",
+          "title": "Snow Sculpture Workshop",
+          "tags": {
+            "date": "February 20, 2026",
+            "time": "1:00 PM",
+            "location": "Kids Zone"
+          }
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1519904981063-b0cf448d479e?w=800&q=80",
+          "title": "Snowman Building Contest",
+          "tags": {
+            "date": "January 12, 2026",
+            "time": "2:00 PM",
+            "location": "Family Park"
+          }
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1609137144813-7d9921338f24?w=800&q=80",
+          "title": "Hot Cocoa & Stories Evening",
+          "tags": {
+            "date": "December 25, 2025",
+            "time": "4:00 PM",
+            "location": "Fireside Cabin"
+          }
+        }
+      ]
     }
   ],
   "products": [
@@ -166,7 +166,8 @@
       "size": "170cm",
       "color": "Red",
       "price": 45,
-      "image": "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=400&h=300&fit=crop"
+      "image": "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=400&h=300&fit=crop",
+      "description": "The Alpine Pro X1 is designed for advanced skiers who demand precision and control. With its lightweight construction and responsive edge grip, this ski excels on groomed runs and hard-packed snow. Perfect for carving turns with confidence."
     },
     {
       "id": "2",
@@ -176,7 +177,8 @@
       "size": "165cm",
       "color": "Black",
       "price": 40,
-      "image": "https://images.unsplash.com/photo-1609955773259-5a88a8f1f5aa?w=400&h=300&fit=crop"
+      "image": "https://images.unsplash.com/photo-1609955773259-5a88a8f1f5aa?w=400&h=300&fit=crop",
+      "description": "Float effortlessly through deep powder with the K2 Powder Master. Its wide profile and rocker design provide exceptional flotation in soft snow conditions. Ideal for off-piste adventures and backcountry exploration."
     },
     {
       "id": "3",
@@ -186,7 +188,8 @@
       "size": "155cm",
       "color": "Blue",
       "price": 50,
-      "image": "https://images.unsplash.com/photo-1518608774889-b04d2abe7702?w=400&h=300&fit=crop"
+      "image": "https://images.unsplash.com/photo-1518608774889-b04d2abe7702?w=400&h=300&fit=crop",
+      "description": "Take your park riding to the next level with the Burton Freestyle Elite. This board features a true twin shape and soft flex for maximum versatility. Perfect for jibbing, spinning, and hitting jumps with style and ease."
     },
     {
       "id": "4",
@@ -196,7 +199,8 @@
       "size": "175cm",
       "color": "Yellow",
       "price": 48,
-      "image": "https://images.unsplash.com/photo-1605540436563-5bca919ae766?w=400&h=300&fit=crop"
+      "image": "https://images.unsplash.com/photo-1605540436563-5bca919ae766?w=400&h=300&fit=crop",
+      "description": "Experience precision carving with the Atomic Carver Pro. Built for speed and stability, these skis feature a narrow waist and aggressive sidecut. Ideal for intermediate to advanced skiers who love making clean, powerful turns."
     },
     {
       "id": "5",
@@ -206,7 +210,8 @@
       "size": "180cm",
       "color": "Black",
       "price": 52,
-      "image": "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=400&h=300&fit=crop"
+      "image": "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=400&h=300&fit=crop",
+      "description": "Conquer any terrain with the Salomon Mountain Beast. These all-mountain skis handle everything from groomed runs to powder fields with ease. Durable construction and versatile performance make them perfect for adventurous skiers."
     },
     {
       "id": "6",
@@ -216,7 +221,8 @@
       "size": "160cm",
       "color": "Green",
       "price": 55,
-      "image": "https://images.unsplash.com/photo-1518608774889-b04d2abe7702?w=400&h=300&fit=crop"
+      "image": "https://images.unsplash.com/photo-1518608774889-b04d2abe7702?w=400&h=300&fit=crop",
+      "description": "The Burton Snow Shredder is built for aggressive all-mountain riding. With its directional shape and medium-stiff flex, this board delivers power and precision in varied conditions. Great for riders who want one board for everything."
     },
     {
       "id": "7",
@@ -226,7 +232,8 @@
       "size": "168cm",
       "color": "Red",
       "price": 46,
-      "image": "https://images.unsplash.com/photo-1609955773259-5a88a8f1f5aa?w=400&h=300&fit=crop"
+      "image": "https://images.unsplash.com/photo-1609955773259-5a88a8f1f5aa?w=400&h=300&fit=crop",
+      "description": "Built for speed demons and racing enthusiasts, the Head Race Demon offers unmatched edge hold and stability at high speeds. Its race-inspired design and stiff flex make it perfect for aggressive carving and GS turns."
     },
     {
       "id": "8",
@@ -236,7 +243,8 @@
       "size": "152cm",
       "color": "White",
       "price": 42,
-      "image": "https://images.unsplash.com/photo-1518608774889-b04d2abe7702?w=400&h=300&fit=crop"
+      "image": "https://images.unsplash.com/photo-1518608774889-b04d2abe7702?w=400&h=300&fit=crop",
+      "description": "The Ride Park Rider is your ticket to park domination. With its playful flex and true twin shape, this board makes learning tricks and hitting features fun and forgiving. Perfect for beginners to intermediate park riders."
     },
     {
       "id": "9",
@@ -246,7 +254,8 @@
       "size": "172cm",
       "color": "Blue",
       "price": 47,
-      "image": "https://images.unsplash.com/photo-1605540436563-5bca919ae766?w=400&h=300&fit=crop"
+      "image": "https://images.unsplash.com/photo-1605540436563-5bca919ae766?w=400&h=300&fit=crop",
+      "description": "The K2 All-Mountain X is the ultimate versatile ski for riders who want to explore the entire mountain. Balanced performance across all conditions, from groomers to powder to moguls. An excellent choice for intermediate skiers."
     },
     {
       "id": "10",
@@ -256,7 +265,8 @@
       "size": "178cm",
       "color": "Black",
       "price": 50,
-      "image": "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=400&h=300&fit=crop"
+      "image": "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=400&h=300&fit=crop",
+      "description": "The Rossignol Freeride Pro is engineered for expert skiers seeking ultimate performance in variable terrain. Wide underfoot with powerful edge control, these skis handle steep chutes, deep snow, and technical descents with confidence."
     },
     {
       "id": "11",
@@ -266,7 +276,8 @@
       "size": "158cm",
       "color": "Orange",
       "price": 58,
-      "image": "https://images.unsplash.com/photo-1518608774889-b04d2abe7702?w=400&h=300&fit=crop"
+      "image": "https://images.unsplash.com/photo-1518608774889-b04d2abe7702?w=400&h=300&fit=crop",
+      "description": "Venture into the backcountry with the Jones Backcountry Beast. This splitboard-ready design features a directional shape optimized for powder and touring. Built tough for remote adventures and deep snow exploration."
     },
     {
       "id": "12",
@@ -276,7 +287,8 @@
       "size": "166cm",
       "color": "Silver",
       "price": 44,
-      "image": "https://images.unsplash.com/photo-1609955773259-5a88a8f1f5aa?w=400&h=300&fit=crop"
+      "image": "https://images.unsplash.com/photo-1609955773259-5a88a8f1f5aa?w=400&h=300&fit=crop",
+      "description": "The Atomic Speed Demon lives up to its name with lightning-fast performance on groomed runs. Its lightweight design and quick turn initiation make it perfect for intermediate skiers looking to improve their technique and speed."
     }
   ],
   "apartments": [
@@ -300,9 +312,9 @@
       "checkOut": "11:00",
       "cancellationPolicy": "Free cancellation up to 72 hours before check-in.",
       "images": [
-        "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=900&h=600&fit=crop",
-        "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?w=900&h=600&fit=crop",
-        "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=900&h=600&fit=crop"
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/454767660.jpg?k=f9b43d14aeb9d9a904337d7f4621b664ccd1db0209cc8e8f46871341838d7f30&o=&hp=1",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/454767713.jpg?k=3be2902465c663644713655f315f7b3b2b4b960e56e06cfc306c77646334bdbf&o=&hp=1",
+        "https://a0.muscache.com/im/pictures/09c3fc2d-594b-47de-9797-20a6b2b1ce41.jpg?im_w=720&width=720&quality=70&auto=webp"
       ],
       "description": "Cozy studio steps from the lifts with a beautiful alpine view. Perfect for couples looking for a quick ski getaway."
     },
@@ -327,9 +339,9 @@
       "checkOut": "11:00",
       "cancellationPolicy": "Free cancellation up to 5 days before check-in.",
       "images": [
-        "https://images.unsplash.com/photo-1505691938895-1758d7feb511?w=900&h=600&fit=crop",
-        "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?w=900&h=600&fit=crop",
-        "https://images.unsplash.com/photo-1505691723518-36a5ac3b2a59?w=900&h=600&fit=crop"
+        "https://img.holidu.com/images/8c623e50-d906-41f6-8743-1b6e7313c941/l.avif",
+        "https://img.holidu.com/images/ed597667-665a-498a-94d1-d1daf180417a/l.avif",
+        "https://img.holidu.com/images/cad9d57c-9384-40b7-a3fd-d3a60e5e25a8/l.avif"
       ],
       "description": "Spacious one-bedroom suite with fireplace and balcony overlooking the slopes. Ideal for small families."
     },
@@ -354,9 +366,10 @@
       "checkOut": "10:00",
       "cancellationPolicy": "50% refund up to 7 days before check-in.",
       "images": [
-        "https://images.unsplash.com/photo-1501183638710-841dd1904471?w=900&h=600&fit=crop",
-        "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=900&h=600&fit=crop",
-        "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=900&h=600&fit=crop"
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/349689020.jpg?k=6cbb42a85974c06b3733c25ab9a01203d73a39d377bc88c99e576c9e21d7dfed&o=&hp=1",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-27181656/original/a5a83ef6-18c7-47de-a5b4-6434943d878c.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-25527195/original/e4922048-8a16-49df-89f6-f2a40dcb5f78.jpeg?im_w=1440",
+        "https://a0.muscache.com/im/pictures/prohost-api/Hosting-25527195/original/d6790a8b-f3ae-4f52-9f35-a83c9e73ce2a.jpeg?im_w=1440"
       ],
       "description": "Modern two-bedroom apartment suited for families, featuring a fully equipped kitchen and in-unit laundry."
     }

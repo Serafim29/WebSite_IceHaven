@@ -4,7 +4,7 @@ import { LuArrowUpRight } from "react-icons/lu";
 import AnimatedLink from './AnimatedLink'
 import HeroMobile from './HeroMobile';
 import SkiResortHero from './SkiResortHero';
- 
+
 const Hero = () => {
     return (
         <section id='hero' className='mt-[10%] lg:mt-[15%]'>
